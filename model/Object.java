@@ -7,10 +7,6 @@ public abstract class Object {
 		this.velocity = velocity;
 		this.force = force;
 		this.density = density;
-		this.resitution = restitution;
-	}
-
-	public boolean collision() {
-		
+		this.restitution = restitution;
 	}
 }

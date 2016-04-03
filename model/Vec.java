@@ -4,17 +4,10 @@ public class Vec {
 	private double mag, a, x, y;
 
 	public Vec(double m, double a) {
-		magn = m;
+		mag = m;
 		this.a = a;
 		x = mag * Math.cos(Math.toRadians(a));
 		y = mag * Math.sin(Math.toRadians(a));
-	}
-
-	public Vec(double x, double y) {
-		mag = Math.sqrt(x * x + y * y);
-		a = Math.atan(y / x);
-		this.x = x;
-		this.y = y;
 	}
 
 	public double getM() {return mag;}
