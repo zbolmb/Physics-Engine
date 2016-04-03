@@ -10,10 +10,10 @@ public class Vec {
 		y = mag * Math.sin(Math.toRadians(a));
 	}
 
-	public double getM() {return mag;}
-	public void setM(double m) {mag = m;}
-	public double getA() {return a;}
-	public void setA(double a) {this.a = a;}
+	public double getMag() {return mag;}
+	public void setMag(double m) {mag = m;}
+	public double getAcc() {return a;}
+	public void setAcc(double a) {this.a = a;}
 	public double getX() {return x;}
 	public void setX(double x) {this.x = x;}
 	public double getY() {return y;}

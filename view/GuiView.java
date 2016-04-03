@@ -2,7 +2,12 @@ import javafx.scene.Scene;
 
 public class GuiView extends Scene {
 	
-	GridPane root;
+	Parent root;
 
-	public 
+	public GuiView(Parent root) {
+		super(root);
+		this.root = root;
+	}
+
+	public Parent getRoot() {return root;}
 }
